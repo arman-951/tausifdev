@@ -1,0 +1,70 @@
+/* ----------navbar------------ */
+@media (max-width: 850px) {
+    .open-menu {
+      display: block;
+    }
+    nav ul {
+      display: none;
+    }
+
+    
+  }
+  @media(max-width:550px){
+    .container {
+      width: 100%;
+    }
+    nav .logo{
+      font-size: 25px;
+    }
+  }
+
+  /* ----------------home section------------- */
+  
+  @media(max-width:1050px){
+    .home-left-sub-heading{
+      font-size: 30px;
+    }
+  }
+  @media(max-width:900px){
+    .home-left-heading{
+      font-size: 40px;
+    }
+  }
+  @media(max-width:850px){
+    .home-section{
+      width: 100%;
+      height: fit-content;
+      flex-direction: column;
+      align-items: center;
+      /* gap: 80px; */
+    }
+    .home-left{
+      flex-basis: 100%;
+      margin: 60px 0;
+    }
+  }
+  @media(max-width:380px){
+    .home-left-sub-heading{
+      font-size: 25px;
+    }
+  }
+
+  /* -------------about section--------------- */
+  @media(max-width:850px){
+    .about-section{
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+    }
+    .about-left{
+      float: left;
+    }
+  }
+  /* ------------contact section--------------- */
+  @media(max-width:768px){
+    .contact-section{
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+  }
