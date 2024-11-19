@@ -68,3 +68,10 @@
       width: 100%;
     }
   }
+
+  @media(max-width:400px){
+    iframe{
+      width: 270px;
+    }
+  }
+  
